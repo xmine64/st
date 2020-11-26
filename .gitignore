@@ -2,3 +2,6 @@
 st
 st.info
 patches/
+src/
+pkg/
+st-mmdmine-*.pkg.tar.zst
