@@ -2,14 +2,14 @@
 # Maintainer: Mohammad Amin Mollazadeh <the.madamin20@gmail.com>
 
 pkgname=st-mmdmine
-pkgver=0.8.4
+pkgver=staging
 pkgrel=1
 pkgdesc='Suckless Terminal with Patches'
 arch=('x86_64')
 license=('MIT')
 depends=(libxft)
 url=https://st.suckless.org
-provides=('st=0.8.4')
+provides=('st')
 conflicts=('st')
 
 _makeopts="--directory=$BUILDDIR"
