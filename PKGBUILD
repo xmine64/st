@@ -7,7 +7,7 @@ pkgrel=1
 pkgdesc='Suckless Terminal with Patches'
 arch=('x86_64')
 license=('MIT')
-depends=(libxft)
+depends=(libxft scroll)
 url=https://st.suckless.org
 provides=('st=0.8.4')
 conflicts=('st')
